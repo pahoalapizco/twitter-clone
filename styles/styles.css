@@ -1,0 +1,30 @@
+:root {
+  --brand-color: #1d9bf0;
+  --just-black: #000000;
+  --just-white: #FFFFFF;
+  --button-color: #71767b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--just-black);
+  color: var(--just-white);
+}
