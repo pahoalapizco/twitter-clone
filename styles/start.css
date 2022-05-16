@@ -60,6 +60,7 @@
 .main-button__blue {  
   background-color: var(--brand-color);
   color: var(--just-white);
+  margin-bottom: 5px;
 }
 
 .main-division {
@@ -85,4 +86,15 @@
   height: 1px;
   width: 45%;
   background-color: gray;
+}
+
+.main-text p {
+  width: 100%;
+  max-width: 300px;
+  min-width: 250px;
+  color: var(--gray-color);
+}
+
+.main-text p a {
+  color: var(--brand-color);
 }
