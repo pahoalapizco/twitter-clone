@@ -33,19 +33,23 @@
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  width: 100%;
 }
 
 .main-button {
   padding: 8px 15px;
   margin-bottom: 18px;
-  width: 240px;
-  max-width: 400px;
-  min-width: min-content;
+  width: 100%;
+  max-width: 300px;
+  min-width: 250px;
   height: 35px;
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .main-button__white {
@@ -60,11 +64,16 @@
 
 .main-division {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: flex-start; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
   margin-bottom: 18px;
   font-size: 1.4rem;
+  text-align: center;
 }
+
 
 .main-division .separator--letter {
   padding: 0 5px;
@@ -74,6 +83,6 @@
 .main-division .separator {
   align-self: center;
   height: 1px;
-  width: 110px;
+  width: 45%;
   background-color: gray;
 }
