@@ -29,7 +29,8 @@
 }
 
 /* Botones */
-.start-main--singup {
+.start-main--singup,
+.start-main--login {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -97,4 +98,48 @@
 
 .main-text p a {
   color: var(--brand-color);
+}
+
+.start-main--login h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.9rem;
+}
+
+.main-button__pain {
+  margin-top: 10px;
+  font-weight: bold;
+  border: 1px solid var(--gray-color);
+  color: var(--brand-color);
+}
+
+/* Background */
+.start-main--backgroundImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-image: url('../assets/img/backgraund-login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.start-main--backgroundImage img {
+  width: 200px;
+  height: 200px;
+}
+.footer {
+  height: inherit;
+}
+.footer .footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .footer-list li {
+  padding: 5px;
+  color: var(--gray-color);
 }
