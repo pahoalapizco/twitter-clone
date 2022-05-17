@@ -15,6 +15,7 @@
 }
 
 .start-main--titles h1 {
+  max-width: 600px;
   margin-top: 40px;
   font-size: 3.5rem;
   font-weight: bold;
@@ -114,6 +115,9 @@
 }
 
 /* Background */
+.start-main--background-container {
+  width: 100%;
+}
 .start-main--backgroundImage {
   display: flex;
   justify-content: center;
