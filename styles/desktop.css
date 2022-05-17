@@ -1,5 +1,6 @@
 .start-main--container {
   width: 60%;
+  margin-left: 0;
 }
 .start-main--backgroundImage img {
   width: 400px;

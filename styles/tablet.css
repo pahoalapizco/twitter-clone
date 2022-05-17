@@ -2,8 +2,11 @@
   display: flex;
   flex-direction:row-reverse;
 }
-
 .start-main--backgroundImage {
   width: 50%;
   height: 100vh;
+}
+
+.main-button:hover {
+  cursor: pointer;
 }
