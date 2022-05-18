@@ -11,3 +11,25 @@
 .start-main--container {
   margin-left: 60px;
 }
+
+.principal-container {
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.login-container {
+  width: 600px;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: var(--just-black);
+  border-radius: 20px;
+}
+
+.login-container main h1 {
+  width: 300px;
+  font-size: 2.9rem;
+  line-height: 3.4rem;  
+}

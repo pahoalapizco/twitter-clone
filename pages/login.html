@@ -17,49 +17,50 @@
     <link rel="icon" href="../assets/img/Logo_blue.svg" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/small-tablet.css"  media="(min-width: 760px)"/>
     <title>Twitter - Clone by Paho</title>
   </head>
   <body>
-    <div class="login-container">
-      <header>
-        <a class="close" href="/"></a>
-        <img class="logo" src="../assets/img/Logo_white.svg" alt="logo" />
-        <span></span>
-      </header>
-      <main>
-        <h1>Inicia sesi&oacute;n en Twitter</h1>
-        <form action="" class="form-login">
-          <button class="login-button">
-            <span><i class="fa-brands fa-google"></i></span> Iniciar sesi&oacute;n con Google
-          </button>
+    <div class="principal-container">
+      <div class="login-container">
+        <header>
+          <a class="close" href="/"></a>
+          <img class="logo" src="../assets/img/Logo_white.svg" alt="logo" />
+          <span></span>
+        </header>
+        <main>
+          <h1>Inicia sesi&oacute;n en Twitter</h1>
+          <form action="" class="form-login">
+            <button class="login-button">
+              <span><i class="fa-brands fa-google"></i></span> Iniciar sesi&oacute;n con Google
+            </button>
+  
+            <button class="login-button login-button__white">
+              <span><i class="fa-brands fa-apple"></i></span> Iniciar sesi&oacute;n con Apple
+            </button>
+            <div class="division-container">
+              <div></div>
+              <span> O </span>
+              <div></div>
+            </div>
+  
+            <label for="login"></label>
+            <input
+              id="login"
+              type="text"
+              placeholder="Teléfono, correo electrónico o nombre de usuario"
+            />
+  
+            <button class="login-button login-button__white">Siguiente</button>
+  
+            <button class="login-button login-button__plane">
+              ¿Olvidaste tu contraseña?
+            </button>
+            <p class="main-text">¿No tienes cuenta? <a href="/"> Regístrate </a></p>
+          </form>
+        </main>
+      </div>
 
-          <button class="login-button login-button__white">
-            <span><i class="fa-brands fa-apple"></i></span> Iniciar sesi&oacute;n con Apple
-          </button>
-          <div class="division-container">
-            <div></div>
-            <span> O </span>
-            <div></div>
-          </div>
-
-          <label for="login"></label>
-          <input
-            id="login"
-            type="text"
-            placeholder="Teléfono, correo electrónico o nombre de usuario"
-          />
-
-          <button class="login-button login-button__white">Siguiente</button>
-
-          <button class="login-button login-button__plane">
-            ¿Olvidaste tu contraseña?
-          </button>
-          <p class="main-text">¿No tienes cuenta? <a href="/"> Regístrate </a></p>
-        </form>
-        <div>
-
-        </div>
-      </main>
     </div>
   </body>
 </html>
