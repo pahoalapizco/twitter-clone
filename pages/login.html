@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../assets/img/Logo_blue.svg">
-  <link rel="stylesheet" href="../styles/styles.css">
-  <link rel="stylesheet" href="../styles/login.css">
-  <title>Twitter - Clone by Paho</title>
-</head>
-<body>
-  <div class="login-container">
-    <header>
-      <a class="close" href="/"></a>
-      <img class="logo" src="../assets/img/Logo_white.svg" alt="logo"/>
-      <span></span>
-    </header>
-    <main>
-      <h1> Inicia sesi&oacute;n en Twitter</h1>
-      <button class="login-button">
-        <span></span> Iniciar sesi&oacute;n con Google
-      </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/af0bf7190a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../assets/img/Logo_blue.svg" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <title>Twitter - Clone by Paho</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <header>
+        <a class="close" href="/"></a>
+        <img class="logo" src="../assets/img/Logo_white.svg" alt="logo" />
+        <span></span>
+      </header>
+      <main>
+        <h1>Inicia sesi&oacute;n en Twitter</h1>
+        <form action="" class="form-login">
+          <button class="login-button">
+            <span><i class="fa-brands fa-google"></i></span> Iniciar sesi&oacute;n con Google
+          </button>
 
-      <form action="" class="form-login">
-        <button class="login-button login-button__white">
-          <span></span> Iniciar sesi&oacute;n con Apple
-        </button>
-        <div class="division-container">
-          <div></div>
-          <span></span>
-          <div></div>
+          <button class="login-button login-button__white">
+            <span><i class="fa-brands fa-apple"></i></span> Iniciar sesi&oacute;n con Apple
+          </button>
+          <div class="division-container">
+            <div></div>
+            <span> O </span>
+            <div></div>
+          </div>
+
+          <label for="login"></label>
+          <input
+            id="login"
+            type="text"
+            placeholder="Teléfono, correo electrónico o nombre de usuario"
+          />
+
+          <button class="login-button login-button__white">Siguiente</button>
+
+          <button class="login-button login-button__plane">
+            ¿Olvidaste tu contraseña?
+          </button>
+          <p class="main-text">¿No tienes cuenta? <a href="/"> Regístrate </a></p>
+        </form>
+        <div>
+
         </div>
-        
-        <label for="login"></label>
-        <input id="login" type="text" placeholder="Teléfono, correo electrónico o nombre de usuario">
-  
-        <button class="login-button login-button__white">
-          Siguiete
-        </button> 
-  
-        <button class="login-button login-button__plane">
-          ¿Olvidaste tu contraseña?
-        </button> 
-      </form>
-
-      <p>
-        ¿No tienes cuenta? <a href="/"> Regístrate </a>
-      </p>
-
-    </main>
-  </div>
-</body>
+      </main>
+    </div>
+  </body>
 </html>

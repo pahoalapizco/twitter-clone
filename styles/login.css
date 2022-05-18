@@ -21,3 +21,100 @@ header img{
   width: 30px;
   height: 30px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main h1 {
+  margin: 30px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 80%;
+  max-width: 300px;
+  min-width: 250px;
+}
+
+.form-login input {
+    width: 95%;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--just-black);
+}
+
+.login-button {
+  padding: 8px 15px;
+  margin-bottom: 18px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 250px;
+  height: 35px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 20px;
+  border: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.login-button__white {
+  background-color: var(--just-white);
+  color: var(--just-black);
+}
+
+.login-button__plane {
+  font-weight: bold;
+  background-color: var(--just-black);
+  color: var(--just-white);
+  border: 1px solid var(--gray-color) ;
+}
+
+.division-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.division-container div {
+  width: 45%;
+  height: 1px;
+  background-color: var(--gray-color);
+}
+
+.main-division span {
+  padding: 0 5px;
+}
+
+.main-text {
+  align-self: flex-start;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gray-color);
+}
+
+.main-text a {
+  color: var(--brand-color)
+}
